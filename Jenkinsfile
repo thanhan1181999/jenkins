@@ -14,6 +14,7 @@ pipeline {
                 sh '''
                 cd myapp
                 pip install -r requirements.txt
+                echo "build done"
                 '''
             }
         }
